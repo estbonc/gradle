@@ -1,6 +1,6 @@
 package com.estbon.gradle.util;
 
-import com.estbon.gradle.config.Lss;
+import com.estbon.gradle.bean.Lss;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**

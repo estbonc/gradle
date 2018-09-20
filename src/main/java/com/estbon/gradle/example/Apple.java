@@ -1,6 +1,8 @@
-package com.estbon.gradle.lss;
+package com.estbon.gradle.example;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @author liushuaishuai
@@ -9,6 +11,8 @@ import lombok.Data;
  * @description
  */
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Apple {
 
     private Integer weight;

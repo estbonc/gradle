@@ -50,7 +50,7 @@ public class SwaggerConfig {
 //        Docket docket = new Docket(DocumentationType.SWAGGER_2)
 //                .apiInfo(apiInfo)
 //                .select()
-//                .apis(RequestHandlerSelectors.basePackage("com.lss.user.web.rest"))
+//                .apis(RequestHandlerSelectors.basePackage("com.example.user.web.rest"))
 //                .paths(PathSelectors.any())
 //                .build();
 //

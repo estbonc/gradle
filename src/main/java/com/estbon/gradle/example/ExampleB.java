@@ -1,4 +1,4 @@
-package com.estbon.gradle.lss;
+package com.estbon.gradle.example;
 
 /**
  * @author liushuaishuai

@@ -1,9 +1,8 @@
-package com.estbon.gradle.lss;
+package com.estbon.gradle.example;
 
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
-import java.util.List;
 
 /**
  * @author liushuaishuai

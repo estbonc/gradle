@@ -1,4 +1,4 @@
-package com.estbon.gradle.enums;
+package com.estbon.gradle.bean.enums;
 
 import com.google.common.collect.Lists;
 

@@ -1,4 +1,4 @@
-package com.estbon.gradle.config;
+package com.estbon.gradle.bean;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;

@@ -7,10 +7,10 @@ package com.estbon.gradle.demo;
 public class Demo04 {
 
     public static void main(String[] args) {
-        String str1  = "com/estbon/gradle/lss";
+        String str1  = "com/estbon/gradle/example";
         String str2 = str1 ;
-        String str3 = new String("com/estbon/gradle/lss");
-        String str4 = new String("com/estbon/gradle/lss");
+        String str3 = new String("com/estbon/gradle/example");
+        String str4 = new String("com/estbon/gradle/example");
 
         System.out.println(str1 == str2);
         System.out.println(str1 == str3);
