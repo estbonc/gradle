@@ -1,6 +1,6 @@
 package com.estbon.gradle.util;
 
-import com.estbon.gradle.bean.Lss;
+import com.estbon.gradle.bean.User;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
@@ -12,11 +12,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class TestUtils {
 
     @Autowired
-    private Lss lss;
+    private User user;
 
 
     public String getName(){
-        return lss.getName();
+        return user.getName();
     }
 
 

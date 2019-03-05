@@ -12,12 +12,16 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @Data
-public class Lss {
+public class User {
 
     @Value("${lss.name}")
     private String name;
 
     @Value("${lss.age}")
     private int age;
+
+    public class Lss{
+
+    }
 
 }
