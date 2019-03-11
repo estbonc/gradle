@@ -9,9 +9,16 @@ package com.estbon.gradle.bean;
 public class Solution {
 
 
-    public ListNode revertList(ListNode listNode){
+    public ListNode revertList(ListNode head){
 
-
-        return null;
+        ListNode prev = null;
+        ListNode curr = head;
+        while (curr != null) {
+            ListNode nextTemp = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = nextTemp;
+        }
+        return prev;
     }
 }
